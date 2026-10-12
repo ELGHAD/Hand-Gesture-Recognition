@@ -1,0 +1,128 @@
+# ============================================================================
+# .GITIGNORE - Projet de Reconnaissance de Gestes
+# ============================================================================
+
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================================================
+# Jupyter Notebook
+# ============================================================================
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ============================================================================
+# Environnements virtuels
+# ============================================================================
+venv/
+env/
+ENV/
+gesture_recognition/
+.venv
+
+# ============================================================================
+# IDEs
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter
+.jupyter/
+
+# ============================================================================
+# Données volumineuses (ne pas versionner)
+# ============================================================================
+# Datasets bruts (trop gros pour Git)
+data/raw/*.csv
+data/raw/*.zip
+
+# Données prétraitées (peuvent être régénérées)
+data/processed/*.npy
+
+# ============================================================================
+# Modèles (trop gros pour Git)
+# ============================================================================
+models/*.h5
+models/*.weights.h5
+models/*.keras
+models/checkpoints/*.h5
+models/checkpoints/*.weights.h5
+
+# EXCEPTION : Garder l'architecture et les métadonnées
+!models/model_architecture.json
+!models/model_metadata.json
+
+# ============================================================================
+# Résultats (peuvent être régénérés)
+# ============================================================================
+results/plots/*.png
+results/plots/*.jpg
+results/metrics/*.csv
+
+# EXCEPTION : Garder quelques visualisations clés
+!results/plots/architecture_schema.png
+!results/plots/courbes_apprentissage.png
+!results/plots/matrice_confusion.png
+
+# ============================================================================
+# Système d'exploitation
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================================
+# Logs et fichiers temporaires
+# ============================================================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# Autres
+# ============================================================================
+*.bak
+*.old
+.cache/
+
+# Dossiers generes par les notebooks
+data/augmented/
+logs/

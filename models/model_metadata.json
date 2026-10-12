@@ -1,0 +1,15 @@
+{
+    "model_name": "CNN_Gestes",
+    "training_date": "2025-12-28 17:45:04",
+    "epochs_trained": 50,
+    "best_epoch": 10,
+    "final_train_accuracy": 0.96875,
+    "final_val_accuracy": 1.0,
+    "best_val_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "test_loss": 5.490627154358663e-05,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "total_parameters": 256707
+}
