@@ -304,3 +304,8 @@ Les seuils HSV de détection de la peau sont définis dans `src/detection/hand_d
 - **Elrhadiouini Hamza** 
 
 
+---
+
+## Licence
+
+Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE).
